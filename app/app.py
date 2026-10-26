@@ -115,7 +115,7 @@ PAGE = """
   <h1>Website Up/Down Checker</h1>
   <div class="row">
     <input id="url" placeholder="example.com" autofocus>
-    <button id="btn">Check</button>
+    <button id="btn">Test</button>
   </div>
   <div id="result"></div>
 </div>
