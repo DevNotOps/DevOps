@@ -22,7 +22,7 @@ jobs:
 
       - name: Build and push Docker image
         env:
-          REPOSITORY: testing-service
+          REPOSITORY: testing_service
           IMAGE_TAG: latest
         run: |
           docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/$REPOSITORY:$IMAGE_TAG .
